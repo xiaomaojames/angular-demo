@@ -1,0 +1,16 @@
+<form name="Form">
+
+
+
+    <custominput ng-model="aaa" name="hahah" validator="url"></custominput>
+
+    <br>
+    <!--<input type="text" name="bbb" ng-model="bbb" validator="url">-->
+    <br>
+    <button ng-click="click()">哈哈哈,这个是外部赋值的，赋的什么值很重要吗</button>
+    <p>这个是取值的，怎么取？当然是自动取呀{{aaa}}</p>
+
+    <button type="button" ng-click="validate(Form)">检查</button>
+
+</form>
+
